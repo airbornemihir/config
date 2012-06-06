@@ -21,3 +21,6 @@
 (setq-default x-select-enable-clipboard t)
 
 (setq-default menu-bar-games-menu t)
+
+(setq snake-score-file
+    "~/.emacs.d/snake-scores")
