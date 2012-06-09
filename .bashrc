@@ -111,3 +111,4 @@ fi
 
 export PATH=$PATH:/home/mihir/Downloads/pintos/src/utils
 export EDITOR='/usr/bin/emacs -nw'
+export ALTERNATE_EDITOR=''
