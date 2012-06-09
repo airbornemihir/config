@@ -1,2 +1,2 @@
-alias tem='emacsclient'
+alias tem='emacs -nw'
 alias sl='sl -Flea'
