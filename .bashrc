@@ -109,6 +109,6 @@ fi
 #Pythonbrew
 #[[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
 
-export PATH=$PATH:/home/mihir/Downloads/pintos/src/utils
+export PATH=$PATH:$HOME/Downloads/pintos/src/utils:$HOME/bochs/bin:$HOME/bochs-gdb/bin
 export EDITOR='/usr/bin/emacs -nw'
 export ALTERNATE_EDITOR=''

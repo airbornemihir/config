@@ -1,7 +1,7 @@
 (require 'python-mode)
 (require 'xcscope)
-(require 'w3m)
-(require 'wget)
+;(require 'w3m)
+;(require 'wget)
 
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 
