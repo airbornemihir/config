@@ -3,6 +3,7 @@
 ;(require 'w3m)
 ;(require 'wget)
 (require 'jabber)
+(require 'psvn)
 
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 
@@ -11,6 +12,7 @@
     (setq python-indent 8)
     (setq tab-width 4)))
 
+(setq-default indent-tabs-mode t)
 (setq-default py-indent-tabs-mode t)
 (setq-default py-start-run-py-shell nil)
 (setq-default py-start-run-ipython-shell nil)
@@ -34,6 +36,7 @@
   ;; If there is more than one, they won't work right.
  '(jabber-account-list (quote (("mihirthegenius@gmail.com" (:network-server . "talk.google.com") (:connection-type . ssl)) ("mihir@mygola.com" (:network-server . "talk.google.com") (:connection-type . ssl)))))
  '(jabber-alert-presence-message-function (lambda (WHO OLDSTATUS NEWSTATUS STATUSTEXT) (nil)))
+ '(jabber-sort-order (quote ("chat" "dnd" "away" "xa" "")))
  '(py-python-command "~/mygola/trunk/env/bin/python"))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.

@@ -112,3 +112,5 @@ fi
 export PATH=$PATH:$HOME/Downloads/pintos/src/utils:$HOME/bochs/bin:$HOME/bochs-gdb/bin
 export EDITOR='/usr/bin/emacs -nw'
 export ALTERNATE_EDITOR=''
+export CATALINA_HOME='/usr/share/tomcat6'
+export CATALINA_BASE='/var/lib/tomcat6'
